@@ -1,9 +1,9 @@
-## sort-insertion
-Insertion sort for arrays.
+## sort-bubble
+Bubble sort for arrays.
 
 ### example
 ```js
-import sort from 'sort-insertion'
+import sort from 'sort-bubble'
 
 sort([6, 2, 5, 3], function (a, b) {
 	return a > b
