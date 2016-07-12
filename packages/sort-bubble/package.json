@@ -1,0 +1,22 @@
+{
+  "name": "sort-bubble",
+  "version": "1.0.0",
+  "description": "A simple and fast implementation of bubble sort",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukebro/sort.git"
+  },
+  "keywords": [
+    "sort",
+    "sorting",
+    "algorithm",
+    "bubble"
+  ],
+  "author": "Lukasz Brodowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukebro/sort/issues"
+  },
+  "homepage": "https://github.com/lukebro/sort#readme"
+}
