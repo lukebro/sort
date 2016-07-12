@@ -1,6 +1,6 @@
 {
   "name": "sort-insertion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and fast implementation of insertion sort",
   "main": "index.js",
   "repository": {
