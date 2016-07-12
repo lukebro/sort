@@ -1,6 +1,5 @@
 ## sort-insertion
-
-A fast and simple implementation of insertion sort for arrays.
+Insertion sort for arrays.
 
 ### example
 ```js
