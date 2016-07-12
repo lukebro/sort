@@ -5,7 +5,7 @@
  * @param  {Function} comparator - Determines how to compare values in the array.
  * @return {Array} - The sorted array.
  */
-function insertion(arr, comparator) {
+function insertionSort(arr, comparator) {
 	comparator = comparator == null ? function (a, b) { return a > b } : comparator
 	for (var i = 1; i < arr.length; i++) {
 		var j = i
@@ -20,4 +20,4 @@ function insertion(arr, comparator) {
 	return arr
 }
 
-module.exports = insertion
+module.exports = insertionSort
