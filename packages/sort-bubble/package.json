@@ -1,6 +1,6 @@
 {
   "name": "sort-bubble",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and fast implementation of bubble sort",
   "main": "index.js",
   "repository": {
