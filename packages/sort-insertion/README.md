@@ -1,9 +1,9 @@
 ## sort-insertion
-A fast and simple implementation of selection sort.
+A fast and simple implementation of insertion sort.
 
 ### example
 ```js
-import sort from 'sort-insertion';
+import sort from 'sort-insertion'
 
 sort([6, 2, 5, 3], function (a, b) {
 	return a > b
