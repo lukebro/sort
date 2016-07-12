@@ -1,5 +1,5 @@
 /**
- * Sort an array via insertion
+ * Sort an array via insertion sort
  * 
  * @param  {Array} arr - The array to be sorted.
  * @param  {Function} comparator - Determines how to compare values in the array.
