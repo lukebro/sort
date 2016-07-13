@@ -2,6 +2,7 @@ var test = require('tape')
 var sorts = {
 	insertion: require('../packages/sort-insertion'),
 	bubble: require('../packages/sort-bubble'),
+	selection: require('../packages/sort-selection'),
 }
 
 Object.keys(sorts).forEach(function (key) {

@@ -1,14 +1,8 @@
 {
-  "devDependencies": {
-    "lerna": "2.0.0-beta.24",
-    "tape": "^4.6.0"
-  },
-  "name": "sort",
-  "version": "1.0.2",
-  "description": "A library of simple dependency-free sorting algorithms",
-  "scripts": {
-    "test": "node test"
-  },
+  "name": "sort-selection",
+  "version": "1.0.0",
+  "description": "A simple and fast implementation of selection sort",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukebro/sort.git"
@@ -16,7 +10,8 @@
   "keywords": [
     "sort",
     "sorting",
-    "algorithm"
+    "algorithm",
+    "selection"
   ],
   "author": "Lukasz Brodowski",
   "license": "MIT",

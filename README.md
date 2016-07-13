@@ -5,6 +5,7 @@ All implementations of sort follow the same API but with different time complexi
 
 ### [sort-insertion](https://www.npmjs.com/package/sort-insertion) - an implementation of insertion sort
 ### [sort-bubble](https://www.npmjs.com/package/sort-bubble) - an implementation of bubble sort
+### [sort-selection](https://www.npmjs.com/package/sort-selection) - an implementation of selection sort
 
 ## example of api
 ```js
