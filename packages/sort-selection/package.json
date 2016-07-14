@@ -1,6 +1,6 @@
 {
   "name": "sort-selection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and fast implementation of selection sort",
   "main": "index.js",
   "repository": {
