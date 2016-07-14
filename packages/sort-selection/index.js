@@ -7,6 +7,7 @@
  */
 function selectionSort(arr, comparator) {
 	comparator = comparator == null ? function (a, b) { return a > b } : comparator
+	arr = arr.slice(0)
 	
 	for (var j = 0; j < arr.length - 1; j++) {
 		var min = j

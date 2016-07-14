@@ -7,6 +7,7 @@
  */
 function bubbleSort(arr, comparator) {
 	comparator = comparator == null ? function (a, b) { return a > b } : comparator
+	arr = arr.slice(0)
 	var n = arr.length
 
 	while (n != 0) {
