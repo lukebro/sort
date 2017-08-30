@@ -1,4 +1,4 @@
-# sort 🚀
+# sort 🌀
 A library of simple dependency-free sorting algorithms.
 
 All implementations of sort follow the same API but with different time complexities, choose your poison. 🍲
