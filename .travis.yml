@@ -1,0 +1,41 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+
+jobs:
+  fast_finish: true
+  include:
+    - &linux
+      stage: Test (Linux)
+      env: SCRIPT=test
+      node_js: 'stable'
+    - <<: *linux
+      node_js: 11
+    - <<: *linux
+      node_js: 10
+    - <<: *linux
+      node_js: 8
+    - <<: *linux
+      node_js: 6
+    - &osx
+      stage: Test (MacOS)
+      os: 'osx'
+      env: SCRIPT=test
+      node_js: 11
+    - <<: *osx
+      node_js: 10
+    - <<: *osx
+      node_js: 8
+    - <<: *osx
+      node_js: 6
+
+install:
+  - npm i -g npm@latest
+  - npm i
+
+script: npm run $SCRIPT
+
+notifications:
+  email: false
